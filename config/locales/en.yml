@@ -4,12 +4,28 @@ en:
       title: Ruby on Rails Tutorial Sample App
       english: English
       vietnamese: Vietnamese
+    header:
+      logo: Sample App
+      login: Login
+      help: Help
+      languages: Languages
+      english: English
+      vietnamese: Vietnamese
+    footer:
+      tutorial_footer_html: The %{tutorial_link}
+      author_footer_html: by %{author_link}
+      tutorial_link_title: Ruby on Rails Tutorial
+      author_link_title: Michael Hartl
+      about: About
+      contact: Contact
+      news: News
   static_pages:
     home:
       title: Home
-      sample_app: Sample App
+      sample_app: Welcome to the Sample App
       content_html: This is the home page for the %{href} sample application.
       href_title: Ruby on Rails Tutorial
+      sign_up: Sign up now!
     help:
       title: Help
       content_help_html: Get help on the Ruby on Rails Tutorial at the %{help_link}
@@ -32,3 +48,7 @@ en:
       rails_tutorial_book_link_title: book
       screen_cast_link_title: screencast series
       rails_home_page_link_title: Ruby on Rails
+  users:
+    new:
+      title: Users#new
+      content: Find me in app/views/users/new.html.erb

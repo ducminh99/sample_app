@@ -4,12 +4,28 @@ vi:
       title: Ứng dụng mẫu khoá học Ruby on Rails
       english: Tiếng Anh
       vietnamese: Tiếng Việt
+    header:
+      logo: Ứng dụng mẫu
+      login: Đăng nhập
+      help: Trợ giúp
+      languages: Ngôn ngữ
+      english: Tiếng Anh
+      vietnamese: Tiếng Việt
+    footer:
+      tutorial_footer_html: Khoá học %{tutorial_link}
+      author_footer_html: bởi %{author_link}
+      tutorial_link_title: Ruby on Rails
+      author_link_title: Michael Hartl
+      about: Giới thiệu
+      contact: Liên hệ
+      news: Tin tức
   static_pages:
     home:
       title: Trang chủ
-      sample_app: Ứng dụng mẫu
+      sample_app: Chào mừng đến với ứng dụng mẫu
       content_html: Đây là trang chủ cho ứng dụng mẫu %{href}.
       href_title: khoá học Ruby on Rails
+      sign_up: Đăng ký ngay bây giờ!
     help:
       title: Trợ giúp
       content_help_html: Nhận sự trợ giúp về khoá học Ruby on Rails %{help_link}.
@@ -32,3 +48,7 @@ vi:
       rails_tutorial_book_link_title: cuốn sách
       screen_cast_link_title: screencast series
       rails_home_page_link_title: Ruby on Rails
+  users:
+    new:
+      title: Người dùng#new
+      content: Đường dẫn app/views/users/new.html.erb
