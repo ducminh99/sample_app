@@ -3,6 +3,6 @@
   <h2>
     <%= t(".content_html", href: link_to(t(".href_title"), Settings.links.rail_tutorial_link)) %>
   </h2>
-<%= link_to t(".sign_up"), "#", class: "btn btn-lg btn-primary" %>
+<%= link_to t(".sign_up"), signup_path, class: "btn btn-lg btn-primary" %>
 </div>
 <%= link_to image_tag("ruby_logo.jpg", alt: "Rails logo", width: "200px"), "/assets/images/ruby_logo.jpg" %>
