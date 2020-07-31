@@ -48,7 +48,16 @@ en:
       rails_tutorial_book_link_title: book
       screen_cast_link_title: screencast series
       rails_home_page_link_title: Ruby on Rails
+  shared: 
+    error_messages:
+      title: The form contains
+      error: error
   users:
     new:
-      title: Users#new
-      content: Find me in app/views/users/new.html.erb
+      title: Welcome to the Sample App!
+      sign_up: Sign up
+      name: Name
+      email: Email
+      password: Password
+      confirmation: Confirmation
+      button: Create my account

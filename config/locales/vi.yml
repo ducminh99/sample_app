@@ -48,7 +48,16 @@ vi:
       rails_tutorial_book_link_title: cuốn sách
       screen_cast_link_title: screencast series
       rails_home_page_link_title: Ruby on Rails
+  shared: 
+    error_messages:
+      title: Form có 
+      error: "lỗi"
   users:
     new:
-      title: Người dùng#new
-      content: Đường dẫn app/views/users/new.html.erb
+      title: Chào mừng đến với ứng dụng mẫu!
+      sign_up: Đăng ký
+      name: Tên
+      email: Địa chỉ email
+      password: Mật khẩu
+      confirmation: Nhập lại mật khẩu
+      button: Tạo tài khoản
