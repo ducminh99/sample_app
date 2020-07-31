@@ -48,3 +48,7 @@ en:
       rails_tutorial_book_link_title: book
       screen_cast_link_title: screencast series
       rails_home_page_link_title: Ruby on Rails
+  users:
+    new:
+      title: Users#new
+      content: Find me in app/views/users/new.html.erb

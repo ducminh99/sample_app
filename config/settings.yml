@@ -6,3 +6,12 @@ links:
   learn_enough_link: 'https://www.learnenough.com/'
   screen_cast_link: 'https://screencasts.railstutorial.org/'
   rails_home_page_link: 'https://rubyonrails.org/'
+validations:
+  user:
+    email:
+      regex: /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i.freeze
+      max_length: 255
+    password:
+      min_length: 6
+    name:
+      max_length: 50

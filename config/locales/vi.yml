@@ -48,3 +48,7 @@ vi:
       rails_tutorial_book_link_title: cuốn sách
       screen_cast_link_title: screencast series
       rails_home_page_link_title: Ruby on Rails
+  users:
+    new:
+      title: Người dùng#new
+      content: Đường dẫn app/views/users/new.html.erb
