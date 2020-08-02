@@ -66,6 +66,7 @@ vi:
       password: Mật khẩu
       confirmation: Nhập lại mật khẩu
       button: Tạo tài khoản
+      sign_up_fail: Đăng ký không thành công
   sessions:
     new:
       log_in: Đăng nhập
@@ -73,5 +74,6 @@ vi:
       email: Địa chỉ email
       password: Mật khẩu
       sign_up_now: Đăng ký ngay
-      error_message: Email hoặc mật khẩu không hợp lệ
       sign_up_failed: Đăng ký không thành công
+      remember_me: Ghi nhớ tôi trên máy tính này
+      error_message: Email hoặc mật khẩu không hợp lệ
