@@ -10,10 +10,12 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
+      log_in @user
       flash[:success] = t "users.new.title"
-      redirect_to user_url(@user)
+      redirect_to @user
     else
-      render :new
+      flash[:danger] = t "users.new.sign_up_failed"
+      redirect_to signup_path
     end
   end
 

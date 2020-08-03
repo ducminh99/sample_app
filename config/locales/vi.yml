@@ -11,6 +11,11 @@ vi:
       languages: Ngôn ngữ
       english: Tiếng Anh
       vietnamese: Tiếng Việt
+      account: Tài khoản
+      users: Người dùng
+      profile: Trang cá nhân
+      settings: Cài đặt
+      log_out: Đăng xuất
     footer:
       tutorial_footer_html: Khoá học %{tutorial_link}
       author_footer_html: bởi %{author_link}
@@ -61,3 +66,12 @@ vi:
       password: Mật khẩu
       confirmation: Nhập lại mật khẩu
       button: Tạo tài khoản
+  sessions:
+    new:
+      log_in: Đăng nhập
+      new_user: Tạo tài khoản mới?
+      email: Địa chỉ email
+      password: Mật khẩu
+      sign_up_now: Đăng ký ngay
+      error_message: Email hoặc mật khẩu không hợp lệ
+      sign_up_failed: Đăng ký không thành công
