@@ -66,6 +66,7 @@ en:
       password: Password
       confirmation: Confirmation
       button: Create my account
+      sign_up_fail: Sign up failed
   sessions:
     new:
       log_in: Log in
@@ -73,5 +74,6 @@ en:
       email: Email
       password: Password
       sign_up_now: Sign up now
-      error_message: Invalid email/password combination
       sign_up_failed: Sign up failed
+      remember_me: Remember me on this computer
+      error_message: Invalid email/password combination

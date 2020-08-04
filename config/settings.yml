@@ -15,3 +15,5 @@ validations:
       min_length: 6
     name:
       max_length: 50
+checkbox:
+  checked_value: '1'
