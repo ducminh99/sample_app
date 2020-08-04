@@ -1,4 +1,11 @@
 vi:
+  views:
+    pagination:
+      first: « Trang đầu
+      last: Trang cuối »
+      previous: ‹ Trang trước
+      next: Trang sau ›
+      truncate: …
   layouts:
     application:
       title: Ứng dụng mẫu khoá học Ruby on Rails
@@ -58,15 +65,32 @@ vi:
       title: Form có 
       error: "lỗi"
   users:
-    new:
-      title: Chào mừng đến với ứng dụng mẫu!
-      sign_up: Đăng ký
+    index:
+      title: Tất cả người dùng
+    form: 
       name: Tên
       email: Địa chỉ email
       password: Mật khẩu
       confirmation: Nhập lại mật khẩu
       button: Tạo tài khoản
+    new:
+      title: Chào mừng đến với ứng dụng mẫu!
+      sign_up: Đăng ký
       sign_up_fail: Đăng ký không thành công
+    edit:
+      save_changes: Lưu thay đổi
+      edit_user: Chỉnh sửa profile
+      update_profile: Cập nhật thông tin cá nhân
+      change: Thay đổi ảnh đại diện
+      update_failed: Cập nhật profile không thành công
+      update_success: Profile đã được cập nhật
+    required_login: Bạn cần phải đăng nhập
+    destroy:
+      deleted_user: Người dùng đã bị xoá
+    user:
+      delete: Xoá
+      confirm: Bạn có chắc chắn muốn xoá user
+    user_not_found: Không tìm thấy người dùng
   sessions:
     new:
       log_in: Đăng nhập
