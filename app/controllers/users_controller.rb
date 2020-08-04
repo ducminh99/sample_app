@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
-  before_action :find_user_by_id, except: [:new, :index, :create]
-  before_action :logged_in_user, except: [:new, :index, :create]
-  before_action :correct_user, only: [:edit, :update]
+  before_action :find_user_by_id, except: %i(new index create)
+  before_action :logged_in_user, except: %i(new index create)
+  before_action :correct_user, only: %i(edit update)
   before_action :admin_user, only: :destroy
 
   def index
@@ -10,6 +10,7 @@ class UsersController < ApplicationController
 
   def show
     return if @user.activated?
+
     redirect_to root_path
     flash[:warning] = t "users.activation.not_activated_account_warning"
   end
@@ -73,6 +74,7 @@ class UsersController < ApplicationController
   def find_user_by_id
     @user = User.find_by id: params[:id]
     return if @user.present?
+
     flash[:danger] = t "users.user_not_found"
     redirect_to root_url
   end

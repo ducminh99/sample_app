@@ -99,6 +99,7 @@ vi:
       not_activated_account_warning: Tài khoản này chưa được kích hoạt
   user_mailer:
     activated_account_title: Kích hoạt tài khoản
+    reset_password_title: Cập nhật mật khẩu
     account_activation:
       activate: Kích hoạt
       title: Ứng dụng mẫu
@@ -114,3 +115,22 @@ vi:
       sign_up_failed: Đăng ký không thành công
       remember_me: Ghi nhớ tôi trên máy tính này
       error_message: Email hoặc mật khẩu không hợp lệ
+      forgot_password: (Quên mật khẩu?)
+  password_resets:
+    sent_email_notification: Hướng dẫn đặt lại mật khẩu đã được gửi về email của bạn
+    email_not_found: Không tìm thấy địa chỉ email này
+    update:
+      empty_warning: không thể br trống
+      success_reset: Mật khẩu đã được thay đổi
+    new:
+      title: Quên mật khẩu
+      submit: Gửi yêu cầu
+    edit:
+      title: Đặt lại mật khẩu
+      submit: Cập nhật mật khẩu
+      confirmation: Xác nhận mật khẩu
+    check_expiration: Link thay đổi mật khẩu đã hết hạn
+    title: Thay đổi mật khẩu
+    sub_title: Để thay đổi mật khẩu hãy click vào link bên dưới
+    expiration: Link này sẽ hết hạn trong 2 giờ
+    warning: Nếu bạn không yếu cầu thay đổi mật khẩu. Hãy bỏ qua email này, mật khẩu của bạn sẽ vẫn giữ nguyên.
