@@ -75,6 +75,7 @@ en:
       button: Create my account
     new:
       title: Welcome to the Sample App!
+      check_mail: Please check your email to activate your account.
       sign_up: Sign up
       sign_up_failed: Sign up failed
     edit:
@@ -91,6 +92,18 @@ en:
       delete: Delete
       confirm: You sure
     user_not_found: User not found
+    activation:
+      activated_account: Account activated!
+      invalid_activated_link: Invalid activation link
+      not_activated_account_notification: Account not activated. Check your email for the activation link.
+      not_activated_account_warning: This user has not been activated yet
+  user_mailer:
+    activated_account_title: Account activation
+    account_activation:
+      activate: Activate
+      title: Sample App
+      hi: Hi
+      welcome: Welcome to the Sample App! Click on the link below to activate your account
   sessions:
     new:
       log_in: Log in
