@@ -1,4 +1,11 @@
 en:
+  views:
+    pagination:
+      first: « FIRST
+      last: LAST »
+      previous: ‹ PREV
+      next: NEXT ›
+      truncate: …
   layouts:
     application:
       title: Ruby on Rails Tutorial Sample App
@@ -58,15 +65,32 @@ en:
       title: The form contains
       error: error
   users:
-    new:
-      title: Welcome to the Sample App!
-      sign_up: Sign up
+    index:
+      title: All users
+    form: 
       name: Name
       email: Email
       password: Password
       confirmation: Confirmation
       button: Create my account
-      sign_up_fail: Sign up failed
+    new:
+      title: Welcome to the Sample App!
+      sign_up: Sign up
+      sign_up_failed: Sign up failed
+    edit:
+      save_changes: Save changes
+      edit_user: Edit user
+      update_profile: Update your profile
+      change: Change avatar
+      update_failed: Update profile failed
+      update_success: Profile updated
+    required_login: Please login
+    destroy:
+      deleted_user: User deleted
+    user:
+      delete: Delete
+      confirm: You sure
+    user_not_found: User not found
   sessions:
     new:
       log_in: Log in
