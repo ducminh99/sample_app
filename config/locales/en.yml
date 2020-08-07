@@ -99,11 +99,14 @@ en:
       not_activated_account_warning: This user has not been activated yet
   user_mailer:
     activated_account_title: Account activation
+    reset_password_title: Password reset
     account_activation:
       activate: Activate
       title: Sample App
       hi: Hi
       welcome: Welcome to the Sample App! Click on the link below to activate your account
+    password_reset:
+      
   sessions:
     new:
       log_in: Log in
@@ -114,3 +117,22 @@ en:
       sign_up_failed: Sign up failed
       remember_me: Remember me on this computer
       error_message: Invalid email/password combination
+      forgot_password: (Forgot password)
+  password_resets:
+    sent_email_notification: Email sent with password reset instructions
+    email_not_found: Email address not found
+    update:
+      empty_warning: can't be empty
+      success_reset: Password has been reset
+    new:
+      title: Forgot password
+      submit: Submit
+    edit:
+      title: Reset password
+      submit: Update password
+      confirmation: Confirmation
+    check_expiration: Password reset has expired.
+    title: Password reset
+    sub_title: To reset your password click the link below
+    expiration: This link will expire in two hours.
+    warning: If you did not request your password to be reset, please ignore this email and your password will stay as it is.

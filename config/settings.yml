@@ -17,3 +17,4 @@ validations:
       max_length: 50
 checkbox:
   checked_value: '1'
+expired_time: 2
