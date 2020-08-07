@@ -75,8 +75,9 @@ vi:
       button: Tạo tài khoản
     new:
       title: Chào mừng đến với ứng dụng mẫu!
+      check_mail: Please check your email to activate your account.
       sign_up: Đăng ký
-      sign_up_fail: Đăng ký không thành công
+      sign_up_failed: Đăng ký không thành công
     edit:
       save_changes: Lưu thay đổi
       edit_user: Chỉnh sửa profile
@@ -91,6 +92,18 @@ vi:
       delete: Xoá
       confirm: Bạn có chắc chắn muốn xoá user
     user_not_found: Không tìm thấy người dùng
+    activation:
+      activated_account: Tài khoản đã được kích hoạt
+      invalid_activated_link: Đường dẫn kích hoạt không hợp lệ
+      not_activated_account_notification: Tài khoản chưa được kích hoạt. Hãy check mail để kích hoạt tài khoản.
+      not_activated_account_warning: Tài khoản này chưa được kích hoạt
+  user_mailer:
+    activated_account_title: Kích hoạt tài khoản
+    account_activation:
+      activate: Kích hoạt
+      title: Ứng dụng mẫu
+      hi: Xin chào
+      welcome: Chào mừng đến với ứng dụng mẫu! Nhấn vào link bên dưới để kích hoat tài khoản của bạn
   sessions:
     new:
       log_in: Đăng nhập
