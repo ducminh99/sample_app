@@ -71,6 +71,9 @@ vi:
     user_info:
       profile: Xem trang cá nhân
       micropost: bài đăng
+    stats:
+      followings: đang theo dõi
+      followers: người theo dõi
   users:
     show:
       microposts: Bài đăng
@@ -106,6 +109,12 @@ vi:
       invalid_activated_link: Đường dẫn kích hoạt không hợp lệ
       not_activated_account_notification: Tài khoản chưa được kích hoạt. Hãy check mail để kích hoạt tài khoản.
       not_activated_account_warning: Tài khoản này chưa được kích hoạt
+    follow:
+      submit: Follow
+    unfollow:
+      submit: Unfollow
+    show_follow:
+      microposts: Microposts
   user_mailer:
     activated_account_title: Kích hoạt tài khoản
     reset_password_title: Cập nhật mật khẩu
@@ -156,3 +165,7 @@ vi:
       ago: trước
       delete: Xoá
       confirm: Bạn chắc chứ
+  followers:
+    title: Người theo dõi
+  followings:
+    title: Đang theo dõi

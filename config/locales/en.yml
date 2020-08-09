@@ -71,6 +71,9 @@ en:
     user_info:
       profile: View my profile
       micropost: micropost
+    stats:
+      followings: followings
+      followers: followers
   users:
     show:
       microposts: Microposts
@@ -106,6 +109,12 @@ en:
       invalid_activated_link: Invalid activation link
       not_activated_account_notification: Account not activated. Check your email for the activation link.
       not_activated_account_warning: This user has not been activated yet
+    follow:
+      submit: Follow
+    unfollow:
+      submit: Unfollow
+    show_follow:
+      microposts: Microposts
   user_mailer:
     activated_account_title: Account activation
     reset_password_title: Password reset
@@ -158,3 +167,7 @@ en:
       ago: ago
       delete: Delete
       confirm: You sure
+  followers:
+    title: Followers
+  followings:
+    title: Followings
