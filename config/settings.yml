@@ -18,3 +18,11 @@ validations:
 checkbox:
   checked_value: '1'
 expired_time: 2
+micropost:
+  max_content_length: 140
+  max_picture_size: 5
+avatar_size: 50
+resize_image: 400
+logo_size: "200px"
+logo_link: "/assets/images/ruby_logo.jpg"
+logo_name: "ruby_logo.jpg"

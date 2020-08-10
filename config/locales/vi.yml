@@ -38,6 +38,7 @@ vi:
       content_html: Đây là trang chủ cho ứng dụng mẫu %{href}.
       href_title: khoá học Ruby on Rails
       sign_up: Đăng ký ngay bây giờ!
+      micropost_feed: Danh sách bài đăng
     help:
       title: Trợ giúp
       content_help_html: Nhận sự trợ giúp về khoá học Ruby on Rails %{help_link}.
@@ -64,7 +65,15 @@ vi:
     error_messages:
       title: Form có 
       error: "lỗi"
+    micropost_form:
+      new_post: Soạn bài viết mới
+      post: Đăng bài
+    user_info:
+      profile: Xem trang cá nhân
+      micropost: bài đăng
   users:
+    show:
+      microposts: Bài đăng
     index:
       title: Tất cả người dùng
     form: 
@@ -134,3 +143,16 @@ vi:
     sub_title: Để thay đổi mật khẩu hãy click vào link bên dưới
     expiration: Link này sẽ hết hạn trong 2 giờ
     warning: Nếu bạn không yếu cầu thay đổi mật khẩu. Hãy bỏ qua email này, mật khẩu của bạn sẽ vẫn giữ nguyên.
+  microposts:
+    create:
+      created_notification: Tạo bài viết thành công!
+      fail_notification: Tạo bài viết không thành công
+    destroy:
+      destroy_notification: Bài viết đã bị xoá
+      fail_destroy_notification: Bài viết chưa được xoá
+      picture_size_warning: Ảnh nên nhỏ hơn 5MB
+    micropost:
+      posted: Đăng vào
+      ago: trước
+      delete: Xoá
+      confirm: Bạn chắc chứ
