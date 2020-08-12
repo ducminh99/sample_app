@@ -8,6 +8,7 @@ class Micropost < ApplicationRecord
   validate :picture_size
 
   scope :order_desc, ->{order(created_at: :desc)}
+  scope :users_feed, ->(user_ids){where user_id: user_ids}
 
   delegate :name, to: :user, prefix: true
 
